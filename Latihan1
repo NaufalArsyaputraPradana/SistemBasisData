@@ -1,0 +1,4 @@
+CREATE DATABASE db_usaha;
+USE db_usaha;
+CREATE TABLE branch (id_cabang varchar(4), alamat varchar(255), kodepos varchar(5), PRIMARY KEY(id_cabang));
+CREATE TABLE staf (nip varchar(3), nama varchar(255), posisi varchar(255), tgl_masuk date, gaji float, PRIMARY KEY(nip));
